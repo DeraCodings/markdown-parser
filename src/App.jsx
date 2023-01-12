@@ -32,7 +32,7 @@ function App() {
 
   **boldened**
 
-  ### *try editing the code*
+  > #### try editing the code
   `;
 
   const [input, setInput] = useState(anotherMarkdown);

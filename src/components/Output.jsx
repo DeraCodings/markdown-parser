@@ -12,7 +12,8 @@ function Output(props) {
                     children={outputValue}
                     remarkPlugins={[remarkGfm]}
                     components={{
-                        code: ({node,...props}) => <code style={{backgroundColor: '#6c757d', color: '#f8f9fa', padding: '0 .5rem' }} {...props}></code>
+                        code: ({node,...props}) => <code style={{backgroundColor: '#6c757d', color: '#f8f9fa', padding: '0 .5rem' }} {...props}></code>,
+                        '\n': <br />
                     }}
                 />
             </div>
